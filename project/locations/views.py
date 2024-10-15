@@ -4,7 +4,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, CreateView, UpdateView
 
-from locations.forms import LocationsForm
+from  locations.forms import LocationsForm
 from locations.models import Location
 
 
